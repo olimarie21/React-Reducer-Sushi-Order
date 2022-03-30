@@ -1,0 +1,66 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:1rem;
+
+    max-width: 900px;
+    margin:auto;
+
+    border-left:1px solid salmon;
+    border-right:1px solid salmon;
+    padding:1rem;
+}
+
+.app h1 {
+    grid-column: 1/-1;
+
+    color:seagreen;
+    font-size: 3rem;;
+}
+
+.order {
+   background-color: seagreen;
+   padding:1rem;
+
+   color:white;
+}
+
+.menu-item-chooser ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:.5em;
+
+    padding:0;
+    list-style-type: none;
+}
+
+.menu-item-chooser li {
+    border:1px solid pink;
+    border-radius:.2em;
+    padding:1rem;
+}
+
+.order-item-modifier {
+    background-color: rgba(0,0,0,.7);
+
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.order-item-modifier .modal {
+    width:400px;
+
+    background-color: white;
+
+    margin: auto;
+    padding:1rem;
+    margin-top:30vh;
+}

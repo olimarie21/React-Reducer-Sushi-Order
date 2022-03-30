@@ -1,0 +1,24 @@
+{
+"items":[
+        {
+            "id": 1,
+            "name":"Dynamite Roll",
+            "price": 4.99
+        },
+        {
+            "id": 2,
+            "name":"California Roll",
+            "price": 3.99
+        },
+        {
+            "id": 3,
+            "name":"Smoked Salmon Roll",
+            "price": 5.99
+        },
+        {
+            "id": 4,
+            "name":"Bento Box",
+            "price": 10.99
+        }
+    ]
+}
